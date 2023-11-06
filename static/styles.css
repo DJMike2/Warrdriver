@@ -1,0 +1,86 @@
+
+html, body {
+    width:100%;
+    height:auto;
+    min-width:480px;
+    min-height:320px;
+    overflow: hidden;
+}
+
+.Attack-BT {
+    width:100px;
+    height:50px;
+
+}
+
+.Container {
+    width:100%;
+    height:auto;
+    min-width:480px;
+    min-height:320px;
+}
+
+.chart-container {
+    position: relative;
+    display: flex; /* Use "grid" for more precise control */
+    justify-content: flex-end; /* Align to the right */
+    align-items: flex-start; /* Align to the top */
+}
+
+.legend-container {
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-right: 20px; /* Adjust the right margin as needed */
+}
+
+
+
+.dark-mode th {
+    /* Define your dark mode styles here */
+    background-color: #333; /* Dark background color */
+}
+.dark-mode .BT {
+    /* Define your dark mode styles here */
+    background-color: #333; /* Dark background color */
+}
+
+
+
+
+
+
+/* Enable scrolling by touch or mouse drag */
+.box {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+/* Styling for the container */
+.table-container {
+    max-height: 200px; /* Set your desired maximum height here */
+    max-width: 800px;
+    overflow: auto;
+    display: flex;
+
+}
+
+/* Styling for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styling for the category headers */
+.category-header {
+    font-weight: bold;
+}
